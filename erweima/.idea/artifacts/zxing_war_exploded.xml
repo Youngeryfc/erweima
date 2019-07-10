@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="zxing:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/zxing_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="erweima/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="erweima" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/zxing3.3.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/Qrcode_A.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/qrcode_B.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
